@@ -23,6 +23,12 @@ const FormControl = styled.div`
     line-height: 1.5rem;
     padding: 0 0.25rem;
   }
+
+  & input:focus {
+    outline: none;
+    background: #fad0ec;
+    border-color: #8b005d;
+  }
 `;
 
 const CourseInput = (props) => {
